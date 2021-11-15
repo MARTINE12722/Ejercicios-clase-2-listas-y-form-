@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+</head>
+<body>
+    <H1>Formulario de registro</H1>
+
+    <form>
+        <div>
+            <label>Nombre:
+                <input type="text" name="Nombre" placeholder="Ej. Juan Carlos">
+            </label>
+        </div>
+
+        <br>
+
+        <div>
+            <label>Apellido:
+                <input type="text" name="apellido" placeholder="Martínez">
+            </label>
+        </div>
+        <br>
+
+        <div>
+            <label>Sexo:
+                <input type="radio" name="Sexo">Hombre
+                <input type="radio" name="Sexo">Mujer
+                <input type="radio" name="Sexo" checked>otros
+            </label>
+        </div>
+
+        <br>
+        <div>
+            <label>Correo:
+                <input type="email" name="Correo" placeholder="Ej. juancarlos@gmail.com">
+
+            </label>
+        </div>
+
+        <br>
+
+        <div>
+            <label>Población:
+            <select name="ciudades" id="ciudades">
+                <option value="ciudad1" selected>Alicante</option>
+                <option value="ciudad2">Barcelona</option>
+                <option value="ciudad3">Córdoba</option>
+                <option value="ciudad4">Madrid</option>
+                <option value="ciudad5">Zaragoza</option>
+        
+            </select>
+        </label>
+
+        </div>
+
+        <br>
+
+        <div>
+            <label>Descripción:
+                <textarea name="descripción"cols="30" rows="10"></textarea>
+            </label>
+        </div>
+        <br>
+
+        <div>
+            <label>
+                <input type="checkbox" name="info" checked>Deseo recibir información sobre novedades y ofertas
+                <br>
+                <input type="checkbox" name="info" required>Declaro haber leído y aceptado las condiciones generales del
+                programa y la
+                normativa sobre protección de datos
+
+            </label>
+        </div>
+
+        <br>
+
+        <div>
+            <label>
+                <input type="submit" value="Enviar">
+            </label>
+        </div>
+
+
+
+
+    </form>
+    
+</body>
+</html>
