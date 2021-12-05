@@ -1,0 +1,50 @@
+body {
+    background-image: url(./assets/fondo6.jpg);
+}
+
+header {
+    top: 0;
+    background: rgb(228, 112, 18);
+    background: radial-gradient(circle, rgba(228, 112, 18, 0.667571252133666) 0%,
+            rgba(55, 62, 69, 0.6787757339263831) 100%);
+    z-index: 1;
+
+}
+
+header img {
+    width: 6%;
+    margin: auto;
+    display: inline;
+    object-position: right;
+    margin-top: none;
+    cursor: pointer;
+    padding: 1% 0% 0% 7%;
+
+}
+
+/*navbar*/
+ul {
+    text-align: right;
+    margin: auto;
+
+}
+
+
+.navList {
+    display: inline;
+    text-transform: capitalize;
+    font-size: 1em;
+    padding: 0% 2%;
+}
+
+
+.navList a {
+    text-decoration: none;
+    color: rgb(236, 218, 218);
+
+}
+
+.navList:hover {
+    background-color: rgb(228, 112, 18);
+    
+}
